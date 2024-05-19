@@ -38,15 +38,12 @@ body {
   .emoji {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .icon {
     align-self: center;
     order: -1;
-  }
-
-  .emoji a {
-    order: 1;
   }
 
 
