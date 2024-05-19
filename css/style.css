@@ -31,19 +31,24 @@ body {
   .emojis {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 370px;
     gap: 15px;
   }
 
   .emoji {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
   }
+
 
   .icon {
     align-self: center;
     order: -1;
+  }
+
+  .emoji a {
+    margin-top: auto;
   }
 
 
